@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A014365246A56E600BC16A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A014364246A56E600BC16A8 /* AppDelegate.m */; };
+		0A014368246A56E600BC16A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A014367246A56E600BC16A8 /* SceneDelegate.m */; };
+		0A01436E246A56E600BC16A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A01436C246A56E600BC16A8 /* Main.storyboard */; };
+		0A014370246A56EC00BC16A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A01436F246A56EC00BC16A8 /* Assets.xcassets */; };
+		0A014373246A56EC00BC16A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A014371246A56EC00BC16A8 /* LaunchScreen.storyboard */; };
+		0A014376246A56EC00BC16A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A014375246A56EC00BC16A8 /* main.m */; };
+		0A014380246A56ED00BC16A8 /* HappySeeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A01437F246A56ED00BC16A8 /* HappySeeDemoTests.m */; };
+		0A01438B246A56ED00BC16A8 /* HappySeeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A01438A246A56ED00BC16A8 /* HappySeeDemoUITests.m */; };
+		0ABCE794246A7D5A005957CE /* JPLBaseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCE793246A7D5A005957CE /* JPLBaseCollectionCell.m */; };
+		0ABCE798246BA36E005957CE /* HttpPostForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCE797246BA36E005957CE /* HttpPostForm.m */; };
+		0ABCE7AC246BAC59005957CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCE79D246BAC59005957CE /* ViewController.m */; };
+		0ABCE7AF246BAC59005957CE /* JPLListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCE7A8246BAC59005957CE /* JPLListViewCell.m */; };
+		0ABCE7B0246BAC59005957CE /* JPLListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCE7AB246BAC59005957CE /* JPLListModel.m */; };
+		0ABCE7B3246BACAF005957CE /* JPLListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCE7B2246BACAF005957CE /* JPLListService.m */; };
+		55998A9D82F6284C02AF5930 /* Pods_HappySeeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23933BFE1E906ACBB7F0B2C7 /* Pods_HappySeeDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A01437C246A56ED00BC16A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A014358246A56E600BC16A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A01435F246A56E600BC16A8;
+			remoteInfo = HappySeeDemo;
+		};
+		0A014387246A56ED00BC16A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A014358246A56E600BC16A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A01435F246A56E600BC16A8;
+			remoteInfo = HappySeeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A014360246A56E600BC16A8 /* HappySeeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappySeeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A014363246A56E600BC16A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A014364246A56E600BC16A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A014366246A56E600BC16A8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0A014367246A56E600BC16A8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0A01436D246A56E600BC16A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A01436F246A56EC00BC16A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A014372246A56EC00BC16A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A014374246A56EC00BC16A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A014375246A56EC00BC16A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A01437B246A56ED00BC16A8 /* HappySeeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappySeeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A01437F246A56ED00BC16A8 /* HappySeeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappySeeDemoTests.m; sourceTree = "<group>"; };
+		0A014381246A56ED00BC16A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A014386246A56ED00BC16A8 /* HappySeeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappySeeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A01438A246A56ED00BC16A8 /* HappySeeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappySeeDemoUITests.m; sourceTree = "<group>"; };
+		0A01438C246A56ED00BC16A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABCE78C246A7B10005957CE /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		0ABCE792246A7D5A005957CE /* JPLBaseCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLBaseCollectionCell.h; sourceTree = "<group>"; };
+		0ABCE793246A7D5A005957CE /* JPLBaseCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLBaseCollectionCell.m; sourceTree = "<group>"; };
+		0ABCE795246A827B005957CE /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		0ABCE796246BA36E005957CE /* HttpPostForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpPostForm.h; sourceTree = "<group>"; };
+		0ABCE797246BA36E005957CE /* HttpPostForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpPostForm.m; sourceTree = "<group>"; };
+		0ABCE79D246BAC59005957CE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0ABCE79E246BAC59005957CE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0ABCE7A7246BAC59005957CE /* JPLListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLListViewCell.h; sourceTree = "<group>"; };
+		0ABCE7A8246BAC59005957CE /* JPLListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLListViewCell.m; sourceTree = "<group>"; };
+		0ABCE7AA246BAC59005957CE /* JPLListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLListModel.h; sourceTree = "<group>"; };
+		0ABCE7AB246BAC59005957CE /* JPLListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLListModel.m; sourceTree = "<group>"; };
+		0ABCE7B1246BACAF005957CE /* JPLListService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLListService.h; sourceTree = "<group>"; };
+		0ABCE7B2246BACAF005957CE /* JPLListService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLListService.m; sourceTree = "<group>"; };
+		23933BFE1E906ACBB7F0B2C7 /* Pods_HappySeeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappySeeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8935D0AC314417AEF5688003 /* Pods-HappySeeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappySeeDemo.release.xcconfig"; path = "Target Support Files/Pods-HappySeeDemo/Pods-HappySeeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CC1E79C48147771F1BC3B696 /* Pods-HappySeeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappySeeDemo.debug.xcconfig"; path = "Target Support Files/Pods-HappySeeDemo/Pods-HappySeeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A01435D246A56E600BC16A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55998A9D82F6284C02AF5930 /* Pods_HappySeeDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A014378246A56ED00BC16A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A014383246A56ED00BC16A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A014357246A56E600BC16A8 = {
+			isa = PBXGroup;
+			children = (
+				0A014362246A56E600BC16A8 /* HappySeeDemo */,
+				0A01437E246A56ED00BC16A8 /* HappySeeDemoTests */,
+				0A014389246A56ED00BC16A8 /* HappySeeDemoUITests */,
+				0A014361246A56E600BC16A8 /* Products */,
+				4E81FFD9B5D19EDA6BA5B8EB /* Pods */,
+				DF78F139D0A499D096293433 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A014361246A56E600BC16A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A014360246A56E600BC16A8 /* HappySeeDemo.app */,
+				0A01437B246A56ED00BC16A8 /* HappySeeDemoTests.xctest */,
+				0A014386246A56ED00BC16A8 /* HappySeeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A014362246A56E600BC16A8 /* HappySeeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCE790246A7D1A005957CE /* Common(公共) */,
+				0ABCE79C246BAC59005957CE /* Controller */,
+				0ABCE7A9246BAC59005957CE /* Model */,
+				0ABCE79F246BAC59005957CE /* Service */,
+				0ABCE7A0246BAC59005957CE /* Util */,
+				0ABCE7A6246BAC59005957CE /* View */,
+				0A014363246A56E600BC16A8 /* AppDelegate.h */,
+				0A014364246A56E600BC16A8 /* AppDelegate.m */,
+				0A014366246A56E600BC16A8 /* SceneDelegate.h */,
+				0A014367246A56E600BC16A8 /* SceneDelegate.m */,
+				0A01436C246A56E600BC16A8 /* Main.storyboard */,
+				0A01436F246A56EC00BC16A8 /* Assets.xcassets */,
+				0A014371246A56EC00BC16A8 /* LaunchScreen.storyboard */,
+				0A014374246A56EC00BC16A8 /* Info.plist */,
+				0A014375246A56EC00BC16A8 /* main.m */,
+				0ABCE78C246A7B10005957CE /* Prefix.pch */,
+				0ABCE795246A827B005957CE /* Common.h */,
+				0ABCE796246BA36E005957CE /* HttpPostForm.h */,
+				0ABCE797246BA36E005957CE /* HttpPostForm.m */,
+			);
+			path = HappySeeDemo;
+			sourceTree = "<group>";
+		};
+		0A01437E246A56ED00BC16A8 /* HappySeeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A01437F246A56ED00BC16A8 /* HappySeeDemoTests.m */,
+				0A014381246A56ED00BC16A8 /* Info.plist */,
+			);
+			path = HappySeeDemoTests;
+			sourceTree = "<group>";
+		};
+		0A014389246A56ED00BC16A8 /* HappySeeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A01438A246A56ED00BC16A8 /* HappySeeDemoUITests.m */,
+				0A01438C246A56ED00BC16A8 /* Info.plist */,
+			);
+			path = HappySeeDemoUITests;
+			sourceTree = "<group>";
+		};
+		0ABCE790246A7D1A005957CE /* Common(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCE791246A7D35005957CE /* Base */,
+			);
+			path = "Common(公共)";
+			sourceTree = "<group>";
+		};
+		0ABCE791246A7D35005957CE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCE792246A7D5A005957CE /* JPLBaseCollectionCell.h */,
+				0ABCE793246A7D5A005957CE /* JPLBaseCollectionCell.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0ABCE79C246BAC59005957CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCE79E246BAC59005957CE /* ViewController.h */,
+				0ABCE79D246BAC59005957CE /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0ABCE79F246BAC59005957CE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCE7B1246BACAF005957CE /* JPLListService.h */,
+				0ABCE7B2246BACAF005957CE /* JPLListService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0ABCE7A0246BAC59005957CE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0ABCE7A6246BAC59005957CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCE7A7246BAC59005957CE /* JPLListViewCell.h */,
+				0ABCE7A8246BAC59005957CE /* JPLListViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0ABCE7A9246BAC59005957CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCE7AA246BAC59005957CE /* JPLListModel.h */,
+				0ABCE7AB246BAC59005957CE /* JPLListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E81FFD9B5D19EDA6BA5B8EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E79C48147771F1BC3B696 /* Pods-HappySeeDemo.debug.xcconfig */,
+				8935D0AC314417AEF5688003 /* Pods-HappySeeDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF78F139D0A499D096293433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23933BFE1E906ACBB7F0B2C7 /* Pods_HappySeeDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A01435F246A56E600BC16A8 /* HappySeeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A01438F246A56ED00BC16A8 /* Build configuration list for PBXNativeTarget "HappySeeDemo" */;
+			buildPhases = (
+				21AEA1BC8F01CF2824E40335 /* [CP] Check Pods Manifest.lock */,
+				0A01435C246A56E600BC16A8 /* Sources */,
+				0A01435D246A56E600BC16A8 /* Frameworks */,
+				0A01435E246A56E600BC16A8 /* Resources */,
+				A5818ADD53155309A71A1556 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappySeeDemo;
+			productName = HappySeeDemo;
+			productReference = 0A014360246A56E600BC16A8 /* HappySeeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A01437A246A56ED00BC16A8 /* HappySeeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A014392246A56ED00BC16A8 /* Build configuration list for PBXNativeTarget "HappySeeDemoTests" */;
+			buildPhases = (
+				0A014377246A56ED00BC16A8 /* Sources */,
+				0A014378246A56ED00BC16A8 /* Frameworks */,
+				0A014379246A56ED00BC16A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A01437D246A56ED00BC16A8 /* PBXTargetDependency */,
+			);
+			name = HappySeeDemoTests;
+			productName = HappySeeDemoTests;
+			productReference = 0A01437B246A56ED00BC16A8 /* HappySeeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A014385246A56ED00BC16A8 /* HappySeeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A014395246A56ED00BC16A8 /* Build configuration list for PBXNativeTarget "HappySeeDemoUITests" */;
+			buildPhases = (
+				0A014382246A56ED00BC16A8 /* Sources */,
+				0A014383246A56ED00BC16A8 /* Frameworks */,
+				0A014384246A56ED00BC16A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A014388246A56ED00BC16A8 /* PBXTargetDependency */,
+			);
+			name = HappySeeDemoUITests;
+			productName = HappySeeDemoUITests;
+			productReference = 0A014386246A56ED00BC16A8 /* HappySeeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A014358246A56E600BC16A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "宋江";
+				TargetAttributes = {
+					0A01435F246A56E600BC16A8 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					0A01437A246A56ED00BC16A8 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 0A01435F246A56E600BC16A8;
+					};
+					0A014385246A56ED00BC16A8 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 0A01435F246A56E600BC16A8;
+					};
+				};
+			};
+			buildConfigurationList = 0A01435B246A56E600BC16A8 /* Build configuration list for PBXProject "HappySeeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A014357246A56E600BC16A8;
+			productRefGroup = 0A014361246A56E600BC16A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A01435F246A56E600BC16A8 /* HappySeeDemo */,
+				0A01437A246A56ED00BC16A8 /* HappySeeDemoTests */,
+				0A014385246A56ED00BC16A8 /* HappySeeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A01435E246A56E600BC16A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A014373246A56EC00BC16A8 /* LaunchScreen.storyboard in Resources */,
+				0A014370246A56EC00BC16A8 /* Assets.xcassets in Resources */,
+				0A01436E246A56E600BC16A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A014379246A56ED00BC16A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A014384246A56ED00BC16A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21AEA1BC8F01CF2824E40335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappySeeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5818ADD53155309A71A1556 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappySeeDemo/Pods-HappySeeDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappySeeDemo/Pods-HappySeeDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappySeeDemo/Pods-HappySeeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A01435C246A56E600BC16A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCE7B0246BAC59005957CE /* JPLListModel.m in Sources */,
+				0ABCE7AC246BAC59005957CE /* ViewController.m in Sources */,
+				0A014365246A56E600BC16A8 /* AppDelegate.m in Sources */,
+				0A014376246A56EC00BC16A8 /* main.m in Sources */,
+				0ABCE798246BA36E005957CE /* HttpPostForm.m in Sources */,
+				0A014368246A56E600BC16A8 /* SceneDelegate.m in Sources */,
+				0ABCE7AF246BAC59005957CE /* JPLListViewCell.m in Sources */,
+				0ABCE7B3246BACAF005957CE /* JPLListService.m in Sources */,
+				0ABCE794246A7D5A005957CE /* JPLBaseCollectionCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A014377246A56ED00BC16A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A014380246A56ED00BC16A8 /* HappySeeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A014382246A56ED00BC16A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A01438B246A56ED00BC16A8 /* HappySeeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A01437D246A56ED00BC16A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A01435F246A56E600BC16A8 /* HappySeeDemo */;
+			targetProxy = 0A01437C246A56ED00BC16A8 /* PBXContainerItemProxy */;
+		};
+		0A014388246A56ED00BC16A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A01435F246A56E600BC16A8 /* HappySeeDemo */;
+			targetProxy = 0A014387246A56ED00BC16A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A01436C246A56E600BC16A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A01436D246A56E600BC16A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A014371246A56EC00BC16A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A014372246A56EC00BC16A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A01438D246A56ED00BC16A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A01438E246A56ED00BC16A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A014390246A56ED00BC16A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1E79C48147771F1BC3B696 /* Pods-HappySeeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HappySeeDemo/Prefix.pch";
+				INFOPLIST_FILE = HappySeeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.HappySeeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A014391246A56ED00BC16A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8935D0AC314417AEF5688003 /* Pods-HappySeeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HappySeeDemo/Prefix.pch";
+				INFOPLIST_FILE = HappySeeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.HappySeeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A014393246A56ED00BC16A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HappySeeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.HappySeeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappySeeDemo.app/HappySeeDemo";
+			};
+			name = Debug;
+		};
+		0A014394246A56ED00BC16A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HappySeeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.HappySeeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappySeeDemo.app/HappySeeDemo";
+			};
+			name = Release;
+		};
+		0A014396246A56ED00BC16A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HappySeeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.HappySeeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappySeeDemo;
+			};
+			name = Debug;
+		};
+		0A014397246A56ED00BC16A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HappySeeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.HappySeeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappySeeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A01435B246A56E600BC16A8 /* Build configuration list for PBXProject "HappySeeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A01438D246A56ED00BC16A8 /* Debug */,
+				0A01438E246A56ED00BC16A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A01438F246A56ED00BC16A8 /* Build configuration list for PBXNativeTarget "HappySeeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A014390246A56ED00BC16A8 /* Debug */,
+				0A014391246A56ED00BC16A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A014392246A56ED00BC16A8 /* Build configuration list for PBXNativeTarget "HappySeeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A014393246A56ED00BC16A8 /* Debug */,
+				0A014394246A56ED00BC16A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A014395246A56ED00BC16A8 /* Build configuration list for PBXNativeTarget "HappySeeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A014396246A56ED00BC16A8 /* Debug */,
+				0A014397246A56ED00BC16A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A014358246A56E600BC16A8 /* Project object */;
+}
